@@ -1,4 +1,4 @@
-package com.example.locc_inventory_system;
+package com.example.locc_inventory_system.UiController;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

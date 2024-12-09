@@ -1,5 +1,8 @@
-package com.example.locc_inventory_system;
+package ModelController;
 
+/*
+In order to 
+ */
 public interface InventoryAction {
     void showInventory();
 

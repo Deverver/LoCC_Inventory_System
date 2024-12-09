@@ -1,8 +1,8 @@
-package com.example.locc_inventory_system;
+package ModelController;
 
 public class CharacterManager {
     private String filePath = "src/main/resources/com/example/locc_inventory_system/SaveData";
-    private Character character;
+    private ModelController.Character character;
 
     public CharacterManager() {}// Empty Constructor
     public CharacterManager(Character character) {

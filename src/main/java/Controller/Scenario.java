@@ -1,4 +1,4 @@
-package com.example.locc_inventory_system;
+package Controller;
 
 public class Scenario implements ScenarioAction {
 private int scenario_id;

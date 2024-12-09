@@ -1,4 +1,4 @@
-package com.example.locc_inventory_system;
+package ModelController;
 
 public class Character {
     private int character_id;
@@ -7,6 +7,10 @@ public class Character {
     private double character_hp;
     private double character_mp;
 
+    /*
+    We have chosen to use a separate class to control our inventory, this way the character class does not have sole -
+    responsibility over the parameters of the inventories and does not need to do weight control checks.
+     */
     private InventoryManager inventoryManager;
 
     public Character(){}// Empty constructor

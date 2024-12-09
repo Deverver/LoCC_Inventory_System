@@ -1,1 +1,1 @@
-jdbc:mysql://localhost:3306/bib_games,root,root
+jdbc:mysql://localhost:3306/database_name,root,root

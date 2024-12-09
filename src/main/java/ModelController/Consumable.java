@@ -1,24 +1,24 @@
-package com.example.locc_inventory_system;
+package ModelController;
 
-public class Weapon extends Item {
-    private int weapon_type;
+public class Consumable extends Item {
+    private int itemAmount;
 
-    public Weapon() {
+    public Consumable() {
         super();
     }
 
-    public Weapon(int item_id, int item_type, String item_name, String item_description, double item_weight, double item_value, int weapon_type) {
+    public Consumable(int item_id, int item_type, String item_name, String item_description, double item_weight, double item_value, int itemAmount) {
         super(item_id, item_type, item_name, item_description, item_weight, item_value);
-        this.weapon_type = weapon_type;
+        this.itemAmount = itemAmount;
     }
 
     //region Getters & Setters
-    public int getWeapon_type() {
-        return weapon_type;
+    public int getItemAmount() {
+        return itemAmount;
     }
 
-    public void setWeapon_type(int weapon_type) {
-        this.weapon_type = weapon_type;
+    public void setItemAmount(int itemAmount) {
+        this.itemAmount = itemAmount;
     }
 
     @Override
@@ -91,5 +91,6 @@ public class Weapon extends Item {
         super.useItem();
     }
     //endregion
+
 
 }// End

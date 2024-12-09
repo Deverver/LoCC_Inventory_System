@@ -1,7 +1,10 @@
-package com.example.locc_inventory_system;
+package ModelController;
 
-import java.util.ArrayList;
-
+/*
+Having 2 separate Inventory classes gives us a more precise control over our characters equipped inventory,
+if LoCC in the future requires characters to have different equipment slots, or specific slot types, -
+like a class that cannot use a certain weapon or amor type, this will allow us to do so.
+*/
 public class InventoryManager {
     private double goldAmount;
     private double weightLimit;

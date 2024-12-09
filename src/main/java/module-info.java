@@ -13,5 +13,14 @@ module com.example.locc_inventory_system {
     requires java.sql;
 
     opens com.example.locc_inventory_system to javafx.fxml;
-    exports com.example.locc_inventory_system;
+    exports Launch;
+    opens Launch to javafx.fxml;
+    exports DbController;
+    opens DbController to javafx.fxml;
+    exports Controller;
+    opens Controller to javafx.fxml;
+    exports ModelController;
+    opens ModelController to javafx.fxml;
+    exports com.example.locc_inventory_system.UiController;
+    opens com.example.locc_inventory_system.UiController to javafx.fxml;
 }

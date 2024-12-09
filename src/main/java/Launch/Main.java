@@ -1,11 +1,13 @@
-package com.example.locc_inventory_system;
+package Launch;
 
+import DbController.DatabaseConnection;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.sql.*;
 
 public class Main extends Application {
     @Override

@@ -1,11 +1,11 @@
-package com.example.locc_inventory_system;
+package ModelController;
 
-public class Armor extends Item{
+public class Ressource extends Item {
 
-    public Armor() {
+    public Ressource() {
         super();
     }
-    public Armor(int item_id, int item_type, String item_name, String item_description, double item_weight, double item_value) {
+    public Ressource(int item_id, int item_type, String item_name, String item_description, double item_weight, double item_value) {
         super(item_id, item_type, item_name, item_description, item_weight, item_value);
     }
 
@@ -69,6 +69,7 @@ public class Armor extends Item{
     public void setItem_value(double item_value) {
         super.setItem_value(item_value);
     }
+    //endregion
 
     @Override
     public void showItemInfo() {
@@ -79,6 +80,4 @@ public class Armor extends Item{
     public void useItem() {
         super.useItem();
     }
-    //endregion
-
 }// End

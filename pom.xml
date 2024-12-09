@@ -134,7 +134,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.example.locc_inventory_system/com.example.locc_inventory_system.Main
+                                com.example.locc_inventory_system/Launch.Main
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
